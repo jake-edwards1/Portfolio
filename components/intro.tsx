@@ -60,20 +60,20 @@ export default function Intro() {
         >
             <Link 
                 href={"#contact"}
-                className='group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition'
+                className='group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 hover:bg-gray-950 active:scale-100 transition'
             >
                 Contact me here <BsArrowRight className='opacity-60 group-hover:translate-x-1 transition'/>
             </Link>
 
             <a 
-                className='group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 active:scale-105 transition border border-black/10'
+                className='group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 active:scale-100 transition border border-black/10'
                 href='/jake_edwards_resume.pdf' download
             >
                 Download Resume <HiDownload className='opacity-60 group-hover:translate-y-1 transition cursor-pointer'/>
             </a>
 
             <a
-                className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer border border-black/10"
+                className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.10] hover:scale-[1.10] active:scale-100 transition cursor-pointer border border-black/10"
                 href="https://linkedin.com/in/jake-edwards647"
                 target="_blank"
             >
@@ -81,7 +81,7 @@ export default function Intro() {
             </a>
 
             <a
-                className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer border border-black/10"
+                className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.10] hover:scale-[1.10] active:scale-100 transition cursor-pointer border border-black/10"
                 href="https://github.com/jake-edwards1"
                 target="_blank"
             >
