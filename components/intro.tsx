@@ -68,7 +68,7 @@ export default function Intro() {
 
             <a 
                 className='group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 active:scale-100 transition border border-black/10'
-                href='/jake_edwards_resume.pdf' download
+                href='/jake_edwards_resume.jpg' download
             >
                 Download Resume <HiDownload className='opacity-60 group-hover:translate-y-1 transition cursor-pointer'/>
             </a>
